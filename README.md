@@ -4,9 +4,9 @@
 
 WEB VERSION: https://valentin-panov.github.io/source_map/
 
-The JavaScript sources executed by the browser are often transformed in some way from the original sources created by a developer. For example:
-- sources are often combined and minified to make delivering them from the server more efficient.
-- JavaScript running on a page is often machine-generated, as when compiled from a language like TypeScript.
+One day Michael found himself hopelessly lost in the dense woods. As panic set in, he stumbled upon a weathered map tucked beneath a moss-covered rock. Determined to find his way, he studied the map intently and discovered a faint trail leading towards some intriguing place..
+
+Do you ever try to investigate the JavaScript sources that are downloaded by the browser? They are often entangled, combined and minified to make delivering them from the server more efficient, and may be unlike the sources created by a developer.
 
 In these situations, it’s much easier to debug the original source, rather than the source in the transformed state that the browser has downloaded.
 
@@ -26,3 +26,5 @@ To prevent such leaks, we need to turn off the source map before pushing the pro
 
 ```
 ![](public/2.png)
+
+Store your map in a secure vault and put your feet up, Michael won't find your trail.

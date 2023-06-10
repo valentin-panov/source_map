@@ -6,11 +6,11 @@ WEB VERSION: https://valentin-panov.github.io/source_map/
 
 One day Michael found himself hopelessly lost in the dense woods. As panic set in, he stumbled upon a weathered map tucked beneath a moss-covered rock. Determined to find his way, he studied the map intently and discovered a faint trail leading towards some intriguing place..
 
-Do you ever try to investigate the JavaScript sources that are downloaded by the browser? They are often entangled, combined and minified to make delivering them from the server more efficient, and may be unlike the sources created by a developer.
+Did you ever try to investigate the JavaScript sources that are downloaded by the browser? They are often combined and minified to make delivering them from the server more efficient, and may entangled to be unlike the sources created by a developer.
 
 In these situations, it’s much easier to debug the original source, rather than the source in the transformed state that the browser has downloaded.
 
-A source map is a file that maps from the transformed source to the original source, enabling the browser to reconstruct the original source and present the reconstructed original in the debugger.
+A source map is a file that maps from the transformed to the original source, enabling the browser to reconstruct the original and present it in the debugger.
 
 When we build a project with the default setting, or even if we intentionally turn the source maps on, the whole internet will know our application structure. You can check it here https://valentin-panov.github.io/source_map/. Just open DevTools=>Sources. The source code may be found here.
 

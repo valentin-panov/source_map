@@ -4,7 +4,9 @@
 
 WEB VERSION: https://valentin-panov.github.io/source_map/
 
-One day Michael found himself hopelessly lost in the dense woods. As panic set in, he stumbled upon a weathered map tucked beneath a moss-covered rock. Determined to find his way, he studied the map intently and discovered a faint trail leading towards some intriguing place..
+It's much easier to hunt a treasure if you have a map.
+
+One day John found himself hopelessly lost. As panic set in, he stumbled upon a weathered map tucked beneath a moss-covered barrel. Determined to find his way, he studied the map intently and discovered a faint trail leading towards some intriguing place..
 
 Did you ever try to investigate the JavaScript sources that are downloaded by the browser? They are often combined and minified to make delivering them from the server more efficient, and may entangled to be unlike the sources created by a developer.
 
@@ -27,4 +29,4 @@ To prevent such leaks, we need to turn off the source map before pushing the pro
 ```
 ![](public/2.png)
 
-Store your map in a secure vault and put your feet up, Michael won't find your trail.
+Store your map in a secure vault and put your feet up, John won't find your trail.
